@@ -7,6 +7,7 @@ import mechro4k from "./images/mechro4k.jpg";
 import nokia3310 from "./images/nokia3310.png";
 import entrymusic from "./images/entrymusic.PNG";
 import React from "react";
+import Footer from "./Footer/Footer";
 
 function App() {
   const projects = [
@@ -15,7 +16,7 @@ function App() {
       description:
         'This site right here',
       image: mitch,
-      link: "https://mit.ch",
+      link: "https://github.com/kitkityee/mitchyWebsite",
     },
     {
       name: "SpaceCadetPinballLeaderboard",
@@ -56,6 +57,7 @@ function App() {
     <React.Fragment>
       <Header></Header>
       <Project projects={projects}></Project>
+      <Footer></Footer>
     </React.Fragment>
   );
 }

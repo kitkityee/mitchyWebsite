@@ -1,5 +1,4 @@
 import style from "./ProjectItems.module.css";
-import { Fragment } from "react";
 
 const ProjectItem = (props) => {
   const clickItemHandler = () => {

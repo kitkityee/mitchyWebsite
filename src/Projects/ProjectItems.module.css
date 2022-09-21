@@ -10,7 +10,7 @@ li {
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   position: relative;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-iteration-count: once;
   transform-origin: bottom;
 }
@@ -55,7 +55,7 @@ li {
 
 li:hover,
 li:active {
-  background-color: rgb(71, 47, 70);
+  background-color: #005f5f;
 }
 
 li:hover .tiptext {

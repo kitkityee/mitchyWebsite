@@ -7,9 +7,13 @@ const Header = () => {
       <div className={style.header}>Mit.ch</div>
       <div className={style.aboutme}>
         <h2>About Me</h2>
-        <p>My name is Mitch, this site documents my various projects</p>
-        <p>
-          ("Design" by me, site by <a href="http://kityee.uk">Kit</a>)
+        <p class="description">
+          My name is Mitch, I am a Sys Admin/Cloud Engineer located in Brighton,
+          England. <br></br>
+          <br></br>
+          This site documents various personal projects including software and
+          web development, hardware projects, and some things relating to my
+          work.
         </p>
       </div>
     </React.Fragment>

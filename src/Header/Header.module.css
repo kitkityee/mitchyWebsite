@@ -10,10 +10,24 @@
 .aboutme {
   text-align: center;
   color: whitesmoke;
-  background-color: rgb(71, 47, 70);
+  background-color: #008080;
   padding: 1rem 3rem 5rem 3rem;
 }
 
 a {
   color: white;
+}
+
+.description {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  width: 70%;
+  height: 2px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
 }
