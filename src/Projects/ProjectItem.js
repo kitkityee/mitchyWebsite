@@ -2,13 +2,12 @@ import style from "./ProjectItems.module.css";
 
 const ProjectItem = (props) => {
   const clickItemHandler = () => {
-    window.location.replace(props.link);
+    window.open(props.link, "_blank");
   };
 
   return (
 
       <li className={style.bounce} onClick={clickItemHandler} key={`${props.name}`}>
-      <span className={style.tiptext}>Click to go the project</span>
       <div className={style.imgbox}>
         <img src={props.image} />
       </div>

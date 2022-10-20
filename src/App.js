@@ -23,12 +23,12 @@ function App() {
       description:
         "An online leaderboard for the previously offline only Windows pinball",
       image: pinball,
-      link: "https://www.pinball.etrash.pro",
+      link: "https://pinball.etrash.pro",
     },
     {
       name: "IAC",
       description:
-        "IAC for all of my personal sites using Terraform, Packer, and Ansible",
+        "IAC for all of my personal sites using Terraform, Packer, and Ansible (Not public ATM)",
       image: iac,
       link: "https://github.com/Meeshoo",
     },
@@ -36,14 +36,14 @@ function App() {
       name: "Mechro 4K",
       description: "A small macro pad with custom PCB and QMK firmware",
       image: mechro4k,
-      link: "https://github.com/Meeshoo",
+      link: "https://github.com/Meeshoo/Mechro4K",
     },
     {
       name: "Nokia 3310 Game Controller",
       description:
         "A custom PCB with QMK firmware that fits inside the Nokia 3310 for use as a keyboard or game controller",
       image: nokia3310,
-      link: "https://github.com/Meeshoo",
+      link: "https://github.com/Meeshoo/Nokia-3310-Controller",
     },
     {
       name: "Entry Music Discord Bot",

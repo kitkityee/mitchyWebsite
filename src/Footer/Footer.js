@@ -6,7 +6,7 @@ const Footer = () => {
     <React.Fragment>
       <div className={style.footer}>
         <p>
-        © 2022 Mitch, and <a href="http://kityee.uk">Kit</a> inc.
+        Made by Mitch and <a href="http://kityee.uk">Kit</a>
         </p>
       </div>
     </React.Fragment>
