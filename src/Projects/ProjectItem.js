@@ -2,7 +2,7 @@ import style from "./ProjectItems.module.css";
 
 const ProjectItem = (props) => {
   const clickItemHandler = () => {
-    window.location.replace(props.link);
+    window.open(props.link, "_blank");
   };
 
   return (
