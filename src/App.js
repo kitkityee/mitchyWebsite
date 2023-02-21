@@ -1,6 +1,8 @@
 import Project from "./Projects/Project";
 import Header from "./Header/Header.js"
 import mitch from "./images/mitch.png";
+import etrash from "./images/etrash.png";
+import csgo from "./images/csgo.png";
 import pinball from "./images/pinball.png";
 import iac from "./images/iac.png";
 import mechro4k from "./images/mechro4k.jpg";
@@ -12,11 +14,25 @@ import Footer from "./Footer/Footer";
 function App() {
   const projects = [
     {
-      name: "mit.ch",
+      name: "Mitlan",
       description:
         'This site right here',
       image: mitch,
       link: "https://github.com/kitkityee/mitchyWebsite",
+    },
+    {
+      name: "eTrash",
+      description:
+        'A website for my friends CSGO team which displays each player\'s live CSGO rank',
+      image: etrash,
+      link: "https://www.etrash.pro",
+    },
+    {
+      name: "CSGO Rank Logger",
+      description:
+        'A small Python app that logs CSGO ranks to a database. Powers the eTrash website',
+      image: csgo,
+      link: "https://github.com/Meeshoo/CSGO-Rank-Logger",
     },
     {
       name: "SpaceCadetPinballLeaderboard",
