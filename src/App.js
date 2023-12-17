@@ -8,6 +8,7 @@ import iac from "./images/iac.png";
 import mechro4k from "./images/mechro4k.jpg";
 import nokia3310 from "./images/nokia3310.png";
 import entrymusic from "./images/entrymusic.PNG";
+import coneflip from "./images/coneflip.png";
 import React from "react";
 import Footer from "./Footer/Footer";
 
@@ -25,7 +26,7 @@ function App() {
       description:
         'A website for my friends CSGO team which displays each player\'s live CSGO rank',
       image: etrash,
-      link: "https://www.etrash.pro",
+      link: "https://etrash.pro",
     },
     {
       name: "CSGO Rank Logger",
@@ -66,6 +67,12 @@ function App() {
       description: "A bot for Discord that plays music/SFX on user entry.",
       image: entrymusic,
       link: "https://github.com/Meeshoo/announcer-discord-bot",
+    },
+    {
+      name: "Coneflip Leaderboard",
+      description: "A leaderboard for CS2 coneflip tricking scores",
+      image: coneflip,
+      link: "https://github.com/Meeshoo/coneflip-leaderboard",
     },
   ];
 
